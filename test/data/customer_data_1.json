@@ -1,0 +1,19 @@
+{
+  "access_token": "212efc9f-f60e-402a-a326-225872a0b0a8",
+  "dimension": "job-skills",
+  "key": "java",
+  "value": 8,
+  "created_at": "2014-08-06 17:51:10 +0000",
+  "interval": [
+    "hours",
+    "weeks",
+    "months"
+  ],
+  "calculation": [
+    "count",
+    "sum",
+    "average",
+    "standard_deviation",
+    "linear_regression"
+  ]
+}
