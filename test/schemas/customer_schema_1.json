@@ -4,29 +4,23 @@
 {
 
 "access_token" : {
-  "type" : "string",
-  "required" : true
+  "type" : "string"
 },
 "dimension" : {
-  "type" : "string",
-  "required" : true
+  "type" : "string"
 },
 "key" : {
-  "type" : "string",
-  "required" : true
+  "type" : "string"
 },
 "value" : {
-  "type" : "integer",
-  "required" : true
+  "type" : "integer"
 },
 "created_at" : {
-  "type" : "string",
-  "required" : true
+  "type" : "string"
 },
 "interval" :
     { "type" : "array",
-      "required" : true
-    , "items" :
+      "items" :
       { "anyOf" :
         [ { "type" : "string", "pattern" : "hours"}
         , { "type" : "string", "pattern" : "weeks"}
@@ -36,8 +30,7 @@
     },
 "calculation" :
     { "type" : "array",
-      "required" : true
-    , "items" :
+      "items" :
       { "anyOf" :
         [ { "type" : "string", "pattern" : "sum"}
         , { "type" : "string", "pattern" : "count"}
